@@ -53,7 +53,7 @@ export class JSDebugMessage extends DebugMessage {
     ) {
       logMessagePrefix = `${delemiterInsideMessage} `;
     }
-    const debuggingMsg: string = `console.log(${quote}${logMessagePrefix}${
+    const debuggingMsg: string = `fmt.Println(${quote}${logMessagePrefix}${
       logMessagePrefix.length !== 0 &&
       logMessagePrefix !== `${delemiterInsideMessage} `
         ? ` ${delemiterInsideMessage} `
@@ -76,10 +76,10 @@ export class JSDebugMessage extends DebugMessage {
           ? `${funcThatEncloseTheVar} ${delemiterInsideMessage} `
           : ""
         : ""
-    }${selectedVar}${quote}, ${selectedVar})${semicolon}`;
+    }${selectedVar} : ${quote}, ${selectedVar})${semicolon}`;
     if (wrapLogMessage) {
       // 16 represents the length of console.log("");
-      const wrappingMsg: string = `console.log(${quote}${logMessagePrefix} ${"-".repeat(
+      const wrappingMsg: string = `fmt.Println(${quote}${logMessagePrefix} ${"-".repeat(
         debuggingMsg.length - 16
       )}${quote})${semicolon}`;
       return `${
@@ -516,7 +516,7 @@ export class JSDebugMessage extends DebugMessage {
     const documentNbrOfLines: number = document.lineCount;
     const logMessages: Message[] = [];
     for (let i = 0; i < documentNbrOfLines; i++) {
-      const turboConsoleLogMessage: RegExp = /console\.log\(/;
+      const turboConsoleLogMessage: RegExp = /fmt\.Println\(/;
       if (turboConsoleLogMessage.test(document.lineAt(i).text)) {
         const logMessage: Message = {
           spaces: "",
