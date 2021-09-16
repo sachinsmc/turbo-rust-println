@@ -1,9 +1,9 @@
 {
-  "name": "turbo-console-log",
-  "displayName": "Turbo Console Log",
+  "name": "turbo-fmt-println",
+  "displayName": "Turbo FMT Println",
   "description": "Automating the process of writing meaningful log messages.",
   "version": "2.1.6",
-  "publisher": "ChakrounAnas",
+  "publisher": "sachinsmc",
   "engines": {
     "vscode": "^1.50.0"
   },
@@ -137,11 +137,11 @@
   },
   "license": "SEE LICENSE IN LICENSE.txt",
   "bugs": {
-    "url": "https://github.com/Chakroun-Anas/turbo-console-log/issues",
-    "email": "chakroun.anas@outlook.com"
+    "url": "https://github.com/sachinsmc/turbo-fmt-println/issues",
+    "email": "chavansachin295@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Chakroun-Anas/turbo-console-log"
+    "url": "https://github.com/sachinsmc/turbo-fmt-println"
   }
 }
