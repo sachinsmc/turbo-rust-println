@@ -22,13 +22,13 @@ The log message will be inserted in the next line relative to the selected varia
 
 fmt.Println("SelectedVariableEnclosingClassName -> SelectedVariableEnclosingFunctionName -> SelectedVariable", SelectedVariable)
 
-(![alt text](https://i.ibb.co/0cj4GnX/turbofmtprintln.gif "Wrapping The log message")
+![alt text](https://i.ibb.co/0cj4GnX/turbofmtprintln.gif "Wrapping The log message")
  
 
 Multiple cursor supported.
 
 
-Properties:
+Properties: It still uses turboConsoleLog for settings will be replaced in future.
 
 - turboConsoleLog.wrapLogMessage (boolean): Whether to wrap the log message or not.
 
