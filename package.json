@@ -2,7 +2,7 @@
   "name": "turbo-fmt-println",
   "displayName": "Turbo FMT Println",
   "description": "Automating the process of writing meaningful log messages.",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "publisher": "sachinsmc",
   "engines": {
     "vscode": "^1.50.0"
