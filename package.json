@@ -2,8 +2,9 @@
   "name": "turbo-fmt-println",
   "displayName": "Turbo FMT Println",
   "description": "Automating the process of writing meaningful log messages.",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "publisher": "sachinsmc",
+  "author": "Sachin Chavan <chavansachin295@gmail.com",
   "engines": {
     "vscode": "^1.50.0"
   },
@@ -148,6 +149,7 @@
     "golang",
     "log",
     "debug",
-    "fmt"
+    "fmt",
+    "go"
   ]
 }

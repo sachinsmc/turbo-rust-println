@@ -22,7 +22,8 @@ The log message will be inserted in the next line relative to the selected varia
 
 fmt.Println("SelectedVariableEnclosingClassName -> SelectedVariableEnclosingFunctionName -> SelectedVariable", SelectedVariable)
 
-![alt text](https://image.ibb.co/dysw7p/insert_log_message.gif "Inserting meaningful log message after selecting a variable")
+![alt text](![alt text](https://i.ibb.co/0cj4GnX/turbofmtprintln.gif "Wrapping The log message")
+ "Inserting meaningful log message after selecting a variable")
 
 Multiple cursor supported.
 
@@ -45,9 +46,6 @@ Properties:
 
 - turboConsoleLog.quote (enum): Double quotes (""), single quotes ('') or backtick(``).
 
-A wrapped log message :
-
-![alt text](https://i.ibb.co/0cj4GnX/turbofmtprintln.gif "Wrapping The log message")
 
 ## Participate
 
@@ -57,7 +55,7 @@ You're more than welcome to participate in the development of the extension by c
 
 
 ## License
-
+MIT
 ---
 Credit : https://github.com/Chakroun-Anas
 ---
