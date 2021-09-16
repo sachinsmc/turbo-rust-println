@@ -22,8 +22,8 @@ The log message will be inserted in the next line relative to the selected varia
 
 fmt.Println("SelectedVariableEnclosingClassName -> SelectedVariableEnclosingFunctionName -> SelectedVariable", SelectedVariable)
 
-![alt text](![alt text](https://i.ibb.co/0cj4GnX/turbofmtprintln.gif "Wrapping The log message")
- "Inserting meaningful log message after selecting a variable")
+(![alt text](https://i.ibb.co/0cj4GnX/turbofmtprintln.gif "Wrapping The log message")
+ 
 
 Multiple cursor supported.
 
