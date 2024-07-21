@@ -51,7 +51,7 @@ Properties: It still uses turboConsoleLog for settings will be replaced in futur
 
 ---
 
-You're more than welcome to participate in the development of the extension by creating pull requests and submitting issues, link of the project in github: https://github.com/sachinsmc/turbo-fmt-println
+You're more than welcome to participate in the development of the extension by creating pull requests and submitting issues, link of the project in github: https://github.com/sachinsmc/turbo-rust-println
 
 
 ## License
