@@ -1,6 +1,6 @@
 {
-  "name": "turbo-fmt-println",
-  "displayName": "Turbo FMT Println",
+  "name": "turbo-rust-println",
+  "displayName": "Turbo Rust Println",
   "description": "Automating the process of writing meaningful log messages.",
   "version": "2.3.0",
   "publisher": "sachinsmc",
@@ -138,19 +138,18 @@
   },
   "license": "SEE LICENSE IN LICENSE.txt",
   "bugs": {
-    "url": "https://github.com/sachinsmc/turbo-fmt-println/issues",
+    "url": "https://github.com/sachinsmc/turbo-rust-println/issues",
     "email": "chavansachin295@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sachinsmc/turbo-fmt-println"
+    "url": "https://github.com/sachinsmc/turbo-rust-println"
   },
   "keywords": [
-    "golang",
+    "rust",
     "log",
     "debug",
     "fmt",
-    "go",
     "println",
     "logger"
   ]
