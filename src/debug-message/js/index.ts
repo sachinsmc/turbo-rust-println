@@ -76,7 +76,7 @@ export class JSDebugMessage extends DebugMessage {
           ? `${funcThatEncloseTheVar} ${delemiterInsideMessage} `
           : ""
         : ""
-    }${selectedVar} : ${quote}, ${selectedVar})${semicolon}`;
+    }${selectedVar} : {} ${quote}, ${selectedVar})${semicolon}`;
     if (wrapLogMessage) {
       // 16 represents the length of console.log("");
       const wrappingMsg: string = `println!(${quote}${logMessagePrefix} ${"-".repeat(
